@@ -31,7 +31,6 @@ mess = int(lines[5].replace("\n",""))
 
 # Algoritmo main
 out_e, out_d, out_n = compute(in_a,in_b,in_A,in_B)
-print(out_e, out_d, out_n)
 if(mode == 'E'):
     print(cifra(mess, out_e, out_n))
 if(mode == 'D'):
